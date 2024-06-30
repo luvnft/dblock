@@ -1,0 +1,52 @@
+/* <======== CSS Styles for Claim-First-Reward-Modal-Component ========> */
+.claimFirstReward-modal {
+    height: 106px;
+    width: 184px;
+    border-radius: 2px;
+    display: flex;
+    align-items: flex-end;
+    z-index: 9999;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    overflow: hidden;
+}
+
+.claimFirstReward-modal-shape {
+    height: 47px;
+    width: 27px;
+    background-color: #EDEDED;
+    transform: translateY(-50%) rotate(45deg);
+    position: relative;
+    left: 27px;
+    top: 39px;
+}
+
+.claimFirstReward-modal-main {
+    height: 104px;
+    width: 168px;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 5px 5px 5px 0px;
+    z-index: 5;
+}
+
+.claimFirstReward-modal-main-banner {
+    height: 49px;
+    width: 68px;
+}
+
+.claimFirstReward-modal-main-text {
+    color: #3F3D56;
+    max-width: 117px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}

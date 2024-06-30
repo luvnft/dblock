@@ -1,0 +1,275 @@
+/* <======== CSS Styles for Login-Component ========> */
+.login-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 69px;
+    padding: 30px 0px;
+    background-color: #FAFAFA;
+}
+
+.login-container {
+    height: 701px;
+    width: 505px;
+    padding: 15px 41px 48px 41px;
+    box-sizing: border-box;
+    background-color: #09091D;
+    border: 0.5px solid #09091D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.login-container-logo {
+    height: 60px;
+    width: 297px;
+}
+
+.login-container-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.login-container-input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.login-container-input-box label {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.login-container-input-box input {
+    height: 59px;
+    width: 423px;
+    padding: 0px 10px 0px 20px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 0.6px solid #282828;
+    border-radius: 6px;
+    outline: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.login-container-password-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 20px;
+    width: 100%;
+}
+
+.login-container-password-left {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.login-container-password-left input {
+    height: 15px;
+    width: 15px;
+}
+
+.login-container-password-left label {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.login-container-password-right {
+    color: #F7931A;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.login-container-password-right:hover {
+    text-decoration: underline;
+}
+
+.login-container-btn {
+    height: 57px;
+    width: 423px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    background-color: #F7931A;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-container-btn:hover {
+    background-color: #dd7f0d;
+}
+
+.login-container-auth-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.login-container-auth-divider {
+    height: 1px;
+    width: 431px;
+    margin-top: 5px;
+    background-color: #D9D9D9;
+}
+
+.login-container-auth-text {
+    color: #B5B5B5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.login-container-auth-main {
+    display: flex;
+    align-items: center;
+    gap: 0px 30px;
+}
+
+.login-container-auth-google {
+    height: 41px;
+    width: 41px;
+    cursor: pointer;
+}
+
+.login-container-auth-github {
+    height: 37px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.login-container-bottom {
+    color: #FFFFFF;
+    margin-top: 7px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.login-container-bottom a {
+    color: #F7931A;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-container-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* <======== CSS Styles for Maximum Width 750px ========> */
+@media (max-width: 750px) {
+    .login-container-wrapper {
+        margin-top: 50px;
+    }
+}
+
+
+/* <======== CSS Styles for Maximum Width 600px ========> */
+@media (max-width: 600px) {
+    .login-container {
+        width: 460px;
+    }
+
+    .login-container-logo {
+        height: 50px;
+        width: 280px;
+    }
+
+    .login-container-input-box input,
+    .login-container-input-box-wrapper {
+        width: 350px;
+    }
+
+    .login-container-btn {
+        width: 350px;
+    }
+}
+
+
+/* <======== CSS Styles for Maximum Width 500px ========> */
+@media (max-width: 500px) {
+    .login-container {
+        width: 360px;
+    }
+
+    .login-container-input-box input,
+    .login-container-input-box-wrapper {
+        width: 250px;
+    }
+
+    .login-container-btn,
+    .login-container-auth-divider,
+    .login-container-recaptcha,
+    .login-container-recaptcha iframe {
+        width: 250px !important;
+    }
+
+    .login-container-password-wrapper {
+        display: block;
+        width: 245px;
+    }
+}
+
+
+/* <======== CSS Styles for Maximum Width 400px ========> */
+@media (max-width: 400px) {
+    .login-container {
+        width: 340px;
+    }
+
+    .login-container-input-box input,
+    .login-container-input-box-wrapper {
+        width: 240px;
+    }
+
+    .login-container-btn,
+    .login-container-auth-divider,
+    .login-container-recaptcha,
+    .login-container-recaptcha iframe {
+        width: 240px !important;
+    }
+}
+
+
+/* <======== CSS Styles for Maximum Width 350px ========> */
+@media (max-width: 350px) {
+    .login-container {
+        width: 280px;
+    }
+
+    .login-container-logo {
+        height: 40px;
+        width: 240px;
+    }
+}

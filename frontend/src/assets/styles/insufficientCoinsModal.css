@@ -1,0 +1,101 @@
+/* <======== CSS Styles for Insufficient-Coins-Modal-Component ========> */
+.insufficientCoins-modal-wrapper {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.insufficientCoins-modal {
+    height: 281px;
+    width: 527px;
+    background-color: #2D3447;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+
+.insufficientCoins-modal-close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.insufficientCoins-modal-close-icon:hover {
+    opacity: 0.6;
+}
+
+.insufficientCoins-modal-warning-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.insufficientCoins-modal-title {
+    color: #FFE94D;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.insufficientCoins-modal-title-icon {
+    height: 33px;
+    width: 33px;
+}
+
+.insufficientCoins-modal-description {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: center;
+}
+
+.insufficientCoins-modal-btn {
+    height: 42px;
+    width: 162px;
+    margin-top: 10px;
+    background-color: #B175FE;
+    border: 0.2px solid #BFBFBF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 11px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.insufficientCoins-modal-btn:hover {
+    background-color: #915cd7;
+}
+
+.insufficientCoins-modal-btn-text {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.insufficientCoins-modal-btn-icon {
+    height: 18px;
+    width: 18px;
+}

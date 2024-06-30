@@ -1,0 +1,142 @@
+/* <======== CSS Styles for Compiler-Navbar-Component ========> */
+.compilerNavbar-container {
+    height: 50px;
+    width: 100%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+}
+
+.compilerNavbar-logo {
+    height: 35px;
+    width: 185px;
+}
+
+.right-compilerNavbar-container {
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+.right-compilerNavbar-container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 38px;
+    width: 149px;
+    background-color: #FFFFFF1A;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-compilerNavbar-container-left:hover {
+    background-color: #B175FE80;
+}
+
+.discord-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.discord-text {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+.right-compilerNavbar-container-middle {
+    display: flex;
+    align-items: center;
+}
+
+.coin-icon {
+    height: 33px;
+    width: 33px;
+}
+
+.coin-text {
+    margin-bottom: 2px;
+    color: #FFE94D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+}
+
+.right-compilerNavbar-container-right {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #FFE94D4D;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* <======== CSS Styles for Maximum Width 750px ========> */
+@media (max-width: 750px) {
+    .compilerNavbar-container {
+        height: 50px;
+        padding: 0px 30px 0px 30px
+    }
+
+    .right-compilerNavbar-container {
+        height: max-content;
+        padding: 0px;
+        border: none;
+    }
+
+    .right-compilerNavbar-container-left {
+        height: max-content;
+        width: max-content;
+        background-color: transparent;
+    }
+
+    .discord-text {
+        display: none;
+    }
+}
+
+
+/* <======== CSS Styles for Maximum Width 500px ========> */
+@media (max-width: 500px) {
+    .compilerNavbar-container {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .compilerNavbar-logo {
+        height: 40px;
+        width: 180px;
+        position: relative;
+        left: -10px;
+    }
+
+    .right-compilerNavbar-container {
+        gap: 0px 10px;
+    }
+
+    .right-compilerNavbar-container-middle {
+        display: none;
+    }
+}

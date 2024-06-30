@@ -1,0 +1,116 @@
+/* <======== CSS Styles for Product-Box-Component ========> */
+.productBox-container {
+    height: 277px;
+    width: 201px;
+    background-color: #1E2832;
+    border: 0.5px solid #FFFFFF33;
+    border-radius: 20px 20px 5px 5px;
+    position: relative;
+}
+
+.productBox-container.active {
+    z-index: 99999;
+}
+
+.productBox-container.active .productBox-container-bottom-btn {
+    box-shadow: 0px 0px 20px 2px #00E7FF;
+}
+
+.productBox-container-top {
+    height: 225px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: #EDEDED;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.productBox-container-top-heart-icon {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+}
+
+.productBox-container-top-tag {
+    height: 24px;
+    width: 52px;
+    color: #ffffff;
+    background-color: #FF6F61;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productBox-container-top-image {
+    height: 180px;
+    width: 180px;
+    margin: 0px auto;
+}
+
+.productBox-container-top-name {
+    color: #000000;
+    margin-left: 16px;
+    font-size: 14.24px;
+    font-weight: 600;
+    line-height: 17.23px;
+}
+
+.productBox-container-bottom {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0px 45px;
+}
+
+.productBox-container-bottom-title {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+.productBox-container-bottom-btn {
+    height: 29px;
+    width: 68px;
+    background-color: #B175FE;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.productBox-container-bottom-btn:hover {
+    background-color: #915cd7;
+}
+
+.productBox-container-bottom-btn-icon {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: -2px;
+}
+
+.productBox-container-bottom-btn-text {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    position: relative;
+    left: -2px;
+}

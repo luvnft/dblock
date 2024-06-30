@@ -1,0 +1,32 @@
+.about-container-gradient {
+    position: absolute;
+    left: -55px;
+    top: 0px;
+    background-color: #F937B326;
+    border-radius: 50%;
+    filter: blur(100px);
+    height: 100%;
+    width: 20%;
+}
+
+/* Default styles */
+#coding-experience {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    #coding-experience {
+        font-size: 16px;
+        /* Decrease font size for smaller screens */
+    }
+}
+
+/* Media Query for extra small screens */
+@media (max-width: 576px) {
+    #coding-experience {
+        font-size: 14px;
+        /* Further decrease font size for extra small screens */
+    }
+}

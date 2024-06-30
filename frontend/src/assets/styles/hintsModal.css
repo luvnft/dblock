@@ -1,0 +1,141 @@
+.hints-modal {
+    min-height: 318px;
+    width: 552px;
+    padding: 0px 55px;
+    box-sizing: border-box;
+    background-color: #2D3447;
+    border: 1px solid #C9C9C9;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    overflow: hidden;
+}
+
+.hints-modal-gradient {
+    position: absolute;
+    left: -55px;
+    top: 0px;
+    background-color: #F937B326;
+    border-radius: 50%;
+    filter: blur(100px);
+    height: 100%;
+    width: 20%;
+}
+
+.hints-modal-close-icon {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.hints-modal-close-icon:hover {
+    filter: brightness(0.8);
+}
+
+.hints-modal-icon {
+    height: 100px;
+    width: 100px;
+    z-index: 5;
+}
+
+.hints-modal-title {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 5;
+}
+
+.hints-modal-main {
+    min-height: 67px;
+    width: 437px;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    gap: 0px 15px;
+    z-index: 5;
+}
+
+.hints-modal-main-left {
+    color: #FF8C00;
+    min-width: max-content;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.hints-modal-main-right {
+    color: #2D3447;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hints-modal-btn-wrapper {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    z-index: 5;
+}
+
+.primary_btn {
+    height: 33px;
+    width: 83px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.primary_btn:hover {
+    background-color: #FFFFFF12;
+}
+
+.secondary_btn {
+    height: 33px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #CBA3FF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.secondary_btn:hover {
+    background-color: #a382ce;
+}

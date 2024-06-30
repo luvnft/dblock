@@ -1,0 +1,86 @@
+/* <======== CSS Styles for Claim-First-Reward-Modal-Component ========> */
+.hintsIntro-modal {
+    height: 131px;
+    width: 235px;
+    border-radius: 2px;
+    display: flex;
+    align-items: flex-end;
+    z-index: 9999;
+    position: absolute;
+    top: 60px;
+    right: 45px;
+    opacity: 0;
+    visibility: hidden;
+    animation: popup 1s ease-in-out 0s forwards;
+}
+
+.hintsIntro-modal-shape {
+    height: 47px;
+    width: 27px;
+    background-color: #FFFFFF;
+    transform: translateY(-50%) rotate(45deg);
+    position: relative;
+    left: 83%;
+    bottom: 58px;
+}
+
+.hintsIntro-modal-main {
+    height: 121px;
+    width: 210px;
+    padding: 0px 10px 0px 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.hintsIntro-modal-main-left {
+    height: 83px;
+    width: 72px;
+}
+
+.hintsIntro-modal-main-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hintsIntro-modal-main-right-heading {
+    color: #3F3D56;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+}
+
+.hintsIntro-modal-main-right-description {
+    color: #3F3D56;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+}
+
+.hintsIntro-modal-main-right-btn {
+    height: 25px;
+    width: 59px;
+    color: #FFFFFF;
+    background-color: #B175FE;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hintsIntro-modal-main-right-btn:hover {
+    background-color: #9d6edb;
+}

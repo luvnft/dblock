@@ -1,0 +1,76 @@
+/* <======== CSS Styles for Dashboard-Reward-Modal-Component ========> */
+.dashboardReward-modal {
+    height: 160px;
+    width: 301px;
+    border-radius: 2px;
+    display: flex;
+    align-items: flex-end;
+    z-index: 998;
+    position: absolute;
+    top: 275px;
+    left: 425px;
+    overflow: hidden;
+}
+
+.dashboardReward-modal-shape {
+    height: 47px;
+    width: 27px;
+    background-color: #FFFFFF;
+    transform: translateY(-50%) rotate(45deg);
+    position: relative;
+    left: 27px;
+    top: 39px;
+}
+
+.dashboardReward-modal-main {
+    height: 160px;
+    width: 301px;
+    padding: 0px 8px 0px 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px 5px 5px 0px;
+}
+
+.dashboardReward-modal-main-left {
+    height: 94px;
+    width: 111px;
+}
+
+.dashboardReward-modal-main-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboardReward-modal-main-right-text {
+    color: #3F3D56;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+}
+
+.dashboardReward-modal-main-right-btn {
+    height: 35px;
+    width: 70px;
+    color: #FFFFFF;
+    background-color: #CBA3FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.dashboardReward-modal-main-right-btn:hover {
+    background-color: #ae86e3;
+}

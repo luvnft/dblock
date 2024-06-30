@@ -1,0 +1,448 @@
+/* <======== CSS Styles for Hero-Component ========> */
+.hero-container {
+  height: 100%;
+  min-height: 650px;
+  width: 100%;
+  margin-top: 69px;
+  background-color: #23295B;
+  object-fit: cover;
+  position: relative;
+  font-family: Poppins;
+}
+
+.video-background {
+  width: 100%;
+  min-height: 650px;
+  object-fit: cover;
+}
+
+.hero-container-gradient {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 40%;
+  width: 40%;
+  background-color: #F937B326;
+  border-radius: 50%;
+  filter: blur(100px);
+}
+
+.hero-container-main {
+  position: absolute;
+  top: 230px;
+  left: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 34px;
+  transform: translate(-10%, -10%);
+  min-width: max-content;
+}
+
+.hero-container-main-top {
+  max-width: 681px;
+}
+
+.hero-container-main-top-heading {
+  color: #FFF;
+  margin-bottom: 0px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.hero-container-main-top-heading-icon {
+  height: 72px;
+  width: 80px;
+}
+
+.hero-container-main-middle {
+  max-width: 637px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 147.5%;
+  letter-spacing: 0.6px;
+}
+
+.hero-container-main-middle-subheading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.hero-container-main-middle-paragraph {
+  margin-bottom: 0px;
+}
+
+.hero-container-main-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero-container-main-bottom-btns-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px 15px;
+}
+
+.hero-container-main-bottom-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  height: 60px;
+  width: 209px;
+  padding: 16px 0px;
+  box-sizing: border-box;
+}
+
+.hero-container-main-bottom-btn p {
+  color: #FFF;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.hero-container .signUp-btn {
+  background-color: #9747FF;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.hero-container .signUp-btn:hover {
+  background-color: #50178C;
+}
+
+.hero-container .signUp-btn svg {
+  color: #FFF;
+  width: 18px;
+  height: 18px;
+}
+
+.hero-container .discord-btn {
+  background-color: rgba(208, 207, 206, 0.10);
+  border: 1px solid #7C7C7C;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+}
+
+.hero-container .discord-btn:hover {
+  background-color: #9747FF;
+}
+
+.hero-container .discord-btn svg {
+  color: #FFF;
+  background-color: #5865F2;
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.hero-container-main-bottom-text {
+  color: #FFF;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 147.5%;
+  letter-spacing: 0.14px;
+}
+
+
+/* <======== CSS Styles for HowItWorks-Component ========> */
+.howItWorks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #FFF;
+  background-color: #23295B;
+  padding: 50px 50px 280px 50px;
+  position: relative;
+}
+
+.howItWorks-container-top-center-gradient {
+  position: absolute;
+  left: 0px;
+  top: -220px;
+  background-color: rgba(37, 108, 206, 0.20);
+  border-radius: 50%;
+  filter: blur(100px);
+  height: 60%;
+  width: 100%;
+}
+
+.howItWorks-container-left-bottom-gradient {
+  position: absolute;
+  left: 0px;
+  bottom: -90px;
+  background-color: rgba(37, 108, 206, 0.30);
+  border-radius: 50%;
+  filter: blur(100px);
+  height: 30%;
+  width: 30%;
+}
+
+.howItWorks-container-right-bottom-gradient {
+  position: absolute;
+  right: 0px;
+  bottom: -90px;
+  background-color: rgba(249, 55, 179, 0.15);
+  border-radius: 50%;
+  filter: blur(100px);
+  height: 30%;
+  width: 30%;
+}
+
+.howItWorks-container-heading {
+  color: #FFF;
+  font-family: "Plus Jakarta Sans";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.howItWorks-container-heading::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 180px;
+  background-color: #FFF;
+}
+
+.howItWorks-container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  left: -10px;
+}
+
+.howItWorks-container-main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.bottom-box {
+  position: relative;
+  top: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0px;
+}
+
+.bottom-box-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.bottom-box-left-arrow {
+  height: 61px;
+  width: 104px;
+  position: relative;
+  bottom: 70px;
+}
+
+.bottom-box-right-arrow {
+  height: 104px;
+  width: 104px;
+  position: relative;
+  bottom: 70px;
+}
+
+.howItWorks-container-main-box-banner {
+  height: 250px;
+}
+
+.howItWorks-container-main-box-icon {
+  height: 48px;
+}
+
+.howItWorks-container-main-box-text {
+  color: #FFF;
+  max-width: 171px;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.14px;
+  text-align: center;
+}
+
+
+/* <======== CSS Styles for Maximum Width 1200px ========> */
+@media (max-width: 1200px) {
+  .howItWorks-container {
+    padding-bottom: 50px;
+  }
+
+  .howItWorks-container-main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-height: max-content;
+    margin-top: 30px;
+  }
+
+  .howItWorks-container-main-box-text {
+    max-width: none;
+  }
+
+  .bottom-box {
+    top: 0px;
+  }
+
+  .bottom-box-left-arrow,
+  .bottom-box-right-arrow {
+    display: none;
+  }
+}
+
+
+/* <======== CSS Styles for Maximum Width 1000px ========> */
+@media (max-width: 1000px) {
+  .hero-container-main-top-heading {
+    font-size: 55px;
+  }
+
+  .hero-container-main-top-heading-icon {
+    height: 62px;
+    width: 70px;
+  }
+
+  .hero-container-main-middle {
+    font-size: 18px;
+    max-width: 600px;
+  }
+}
+
+
+/* <======== CSS Styles for Maximum Width 750px ========> */
+@media (max-width: 750px) {
+  .hero-container {
+    margin-top: 50px;
+  }
+
+  .hero-container-main {
+    min-width: 0px;
+    left: 105px;
+    top: 180px;
+  }
+
+  .hero-container-main-top-heading {
+    font-size: 45px;
+  }
+
+  .hero-container-main-middle {
+    font-size: 17px;
+  }
+
+  .hero-container-main-middle-subheading {
+    font-size: 18px;
+  }
+}
+
+
+/* <======== CSS Styles for Maximum Width 500px ========> */
+@media (max-width: 500px) {
+  .hero-container-main {
+    left: 65px;
+    top: 150px;
+    width: 90%;
+  }
+
+  .hero-container-main-top-heading {
+    font-size: 30px;
+  }
+
+  .hero-container-main-top-heading-icon {
+    height: 52px;
+    width: 60px;
+  }
+
+  .hero-container-main-middle {
+    font-size: 15px;
+  }
+
+  .hero-container-main-middle-subheading {
+    font-size: 15px;
+  }
+
+  .hero-container-main-middle-paragraph {
+    margin-bottom: 0px;
+    max-width: 229px;
+    font-size: 15px;
+  }
+
+  .hero-container-main-bottom-btns-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .hero-container .signUp-btn,
+  .hero-container .discord-btn {
+    height: 50px;
+    width: 176px;
+  }
+
+  .hero-container .discord-btn {
+    background-color: rgba(208, 207, 206, 0.50);
+  }
+
+  .howItWorks-container-heading {
+    font-size: 25px;
+  }
+
+  .howItWorks-container-heading::after {
+    width: 120px;
+  }
+
+  .howItWorks-container-main {
+    left: 0px;
+  }
+
+  .howItWorks-container-main-box-banner {
+    height: 150px;
+  }
+
+  .howItWorks-container-main-box-icon {
+    height: 35px;
+  }
+}
+
+
+/* <======== CSS Styles for Maximum Width 400px ========> */
+@media (max-width: 400px) {
+  .hero-container-main {
+    left: 15%;
+    width: 90%;
+  }
+
+  .hero-container-main-top-heading {
+    font-size: 25px;
+  }
+
+  .hero-container-main-middle {
+    font-size: 15px;
+  }
+}

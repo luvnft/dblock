@@ -1,0 +1,83 @@
+/* <======== CSS Styles for Problem-Solved-Modal-Component ========> */
+.problemSolved-modal-wrapper {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.problemSolved-modal {
+    height: 414px;
+    width: 330px;
+    background-color: #1E1E1E;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.problemSolved-modal-close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.problemSolved-modal-close-icon:hover {
+    opacity: 0.6;
+}
+
+.problemSolved-modal-logo-icon {
+    height: 35px;
+    width: 185px;
+}
+
+.problemSolved-modal-coin-icon {
+    height: 174px;
+    width: 178px;
+}
+
+.problemSolved-modal-points {
+    color: #F7931A;
+    margin-bottom: 22px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.problemSolved-modal-btn {
+    height: 30px;
+    width: 71px;
+    padding: 0px 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    background-color: #9747FF;
+    transition: 0.3s ease;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.problemSolved-modal-btn:hover {
+    background-color: #6f37ab;
+}

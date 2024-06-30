@@ -1,0 +1,92 @@
+.compilationFailed-modal {
+    height: 237px;
+    width: 411px;
+    background-color: #2D3447;
+    border: 1px solid #C9C9C9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.compilationFailed-modal-gradient {
+    position: absolute;
+    left: -35px;
+    top: 0px;
+    background-color: #F937B326;
+    border-radius: 50%;
+    filter: blur(100px);
+    height: 100%;
+    width: 20%;
+}
+
+.compilationFailed-close-icon {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.compilationFailed-close-icon:hover {
+    filter: brightness(0.8);
+}
+
+.compilationFailed-modal-icon {
+    height: 59px;
+    width: 59px;
+    z-index: 5;
+}
+
+.compilationFailed-modal-heading {
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    z-index: 5;
+}
+
+.compilationFailed-modal-description {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+    z-index: 5;
+}
+
+.compilationFailed-modal-btn {
+    height: 35px;
+    width: 89px;
+    margin-top: 7px;
+    color: #ffffff;
+    background-color: #CBA3FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.compilationFailed-modal-btn:hover {
+    background-color: #a87fdd;
+}

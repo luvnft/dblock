@@ -1,0 +1,293 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\blockchain\\Dcodeblock\\testcaseserror\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\GangsterGarage.sol": {
+      "lastModificationDate": 1718977365680,
+      "contentHash": "5e45b62640f1966b0a0ac34f62ff5f33",
+      "sourceName": "contracts/GangsterGarage.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GangsterGarage"
+      ]
+    },
+    "E:\\blockchain\\Dcodeblock\\testcaseserror\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\GTAIntro.sol": {
+      "lastModificationDate": 1718960902083,
+      "contentHash": "2e8921125447e7ca4dce2598e093c0d6",
+      "sourceName": "contracts/GTAIntro.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GTAIntro"
+      ]
+    },
+    "E:\\blockchain\\Dcodeblock\\testcaseserror\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\LosSantosLegend.sol": {
+      "lastModificationDate": 1718975726359,
+      "contentHash": "02de7d478f8be818c80a687773be7dc2",
+      "sourceName": "contracts/LosSantosLegend.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LosSantosLegend"
+      ]
+    },
+    "C:\\Users\\Redmi\\anurag\\dcodeblock\\multiple\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\SubmittedContract.sol": {
+      "lastModificationDate": 1718735902657,
+      "contentHash": "e4d2f93f263268e15403fcdc43b95311",
+      "sourceName": "contracts/SubmittedContract.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SubmittedContract"
+      ]
+    },
+    "C:\\Users\\Redmi\\anurag\\dcodeblock\\solving\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\GangsterGarage.sol": {
+      "lastModificationDate": 1719074434523,
+      "contentHash": "cc848c028e225b83158d60e2a2b4dc4d",
+      "sourceName": "contracts/GangsterGarage.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GangsterGarage"
+      ]
+    },
+    "C:\\Users\\Redmi\\anurag\\dcodeblock\\solving\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\GTAIntro.sol": {
+      "lastModificationDate": 1718962126612,
+      "contentHash": "622733ff013b23f595d4f1c602a65aeb",
+      "sourceName": "contracts/GTAIntro.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GTAIntro"
+      ]
+    },
+    "C:\\Users\\Redmi\\anurag\\dcodeblock\\solving\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\LosSantosLegend.sol": {
+      "lastModificationDate": 1719058811491,
+      "contentHash": "ce62f5c0ab66630c63bc24ac776feb9f",
+      "sourceName": "contracts/LosSantosLegend.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LosSantosLegend"
+      ]
+    },
+    "C:\\Users\\Redmi\\anurag\\dcodeblock\\solving\\dcb_team_alpha\\backend_solidity-main\\hardhat\\contracts\\SubmittedContract.sol": {
+      "lastModificationDate": 1718887958308,
+      "contentHash": "e4d2f93f263268e15403fcdc43b95311",
+      "sourceName": "contracts/SubmittedContract.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SubmittedContract"
+      ]
+    }
+  }
+}

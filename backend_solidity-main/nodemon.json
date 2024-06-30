@@ -1,0 +1,7 @@
+{
+    "watch": ["**/*.js"],
+    "ignore": ["_hardhat_contracts"],
+    "ext": "js,json",
+    "delay": 7000 
+  }
+  

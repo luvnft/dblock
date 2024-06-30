@@ -1,0 +1,79 @@
+/* AI.css */
+
+.left-content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100vh;
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For IE and Edge */
+    scroll-behavior: smooth;
+    /* Smooth scrolling */
+}
+
+.left-content::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.left-content::-webkit-scrollbar-thumb {
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.right-content {
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    width: 30%;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #276a7b;
+}
+
+.section p,
+.section ul {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.left-content {
+    width: 40%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-list a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #007569;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title-list {
+    width: 20%;
+}
+
+.title-list a:hover {
+    text-decoration: underline;
+}
