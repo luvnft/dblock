@@ -88,7 +88,7 @@ app.post('/submit', async (req, res) => {
 
     console.log("Deployment started")
 
-    const web3 = new Web3(`https://polygon-amoy.infura.io/v3/927c8dbdf00b482caceb4208f6452481`);
+    const web3 = new Web3(`https://base-sepolia.g.alchemy.com/v2/XyUEXkSP6jszREk1xTWuVgLADykJ8lyT`);
     const account = web3.eth.accounts.privateKeyToAccount('0e9d44bc4140e626d7f1b475e6c8ecbb281a87c7fb105e46df00dd3275754038'); 
     
     const artifactsPath = `./hardhat/_hardhat_contracts/contracts/${contractName}.sol/${contractName}.json`; // Assuming relative path
